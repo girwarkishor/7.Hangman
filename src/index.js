@@ -15,7 +15,7 @@ let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 // console.log(selectedWord);
 
-const correctLetters = ["w", "i", "z", "a", "r", "d"];
+const correctLetters = [];
 const wrongLetters = [];
 
 // Show hidden word

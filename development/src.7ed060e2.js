@@ -1101,7 +1101,7 @@ var figureParts = document.querySelectorAll(".figure-part");
 var words = ["application", "programming", "interface", "wizard"];
 var selectedWord = words[Math.floor(Math.random() * words.length)]; // console.log(selectedWord);
 
-var correctLetters = ["w", "i", "z", "a", "r", "d"];
+var correctLetters = [];
 var wrongLetters = []; // Show hidden word
 
 function displayWord() {
