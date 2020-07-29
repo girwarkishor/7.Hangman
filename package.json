@@ -1,0 +1,26 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u00007\u0000.\u0000H\u0000a\u0000n\u0000g\u0000m\u0000a\u0000n\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel public/index.html --out-dir development -p 3000",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girwarkishor/7.Hangman.git"
+  },
+  "author": "Girwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/girwarkishor/7.Hangman/issues"
+  },
+  "homepage": "https://github.com/girwarkishor/7.Hangman#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/runtime-corejs3": "^7.10.5",
+    "sass": "^1.26.10"
+  }
+}
